@@ -6,5 +6,5 @@ import numpy as np
 
 st.title('E-commerce Sales Prediction')
 
-st.image("/content/drive/MyDrive/E_Commerce_Sales/sales_image.jpg")
+st.image("sales_image.jpg")
         
