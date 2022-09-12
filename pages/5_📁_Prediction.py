@@ -6,13 +6,13 @@ st.title("Model Prediction")
 st.write('Linear Regression perform more accurately than other models. Therefore we use Linear Regression for prediction.')
 st.image("sales_pred.png")
     
-x1 = st.slider("Average session Length : ",min_value=25.0,max_value=100.0,step=.1,value=30.0 )
+x1 = st.slider("Average session Length : ",min_value=29.0,max_value=100.0,step=.1,value=30.0 )
     
 x2 = st.slider("Time spent on App : ",min_value=8.0,max_value=80.0,step=0.1,value=15.0)
     
-x3 = st.slider("Time spent on Website : ",min_value=30.0,max_value=80.0,step=0.1,value=30.0)
+x3 = st.slider("Time spent on Website : ",min_value=33.0,max_value=80.0,step=0.1,value=30.0)
     
-x4 = st.slider("Length of Membership : ",min_value=0.1,max_value=10.0,step=0.001,value=1.00)
+x4 = st.slider("Length of Membership : ",min_value=0.2,max_value=10.0,step=0.001,value=1.00)
     
 model = pkl.load(open('Linear.pkl','rb'))
     
